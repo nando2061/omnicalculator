@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Variable from HTML Input</title>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: row;">
+        <div style="text-align: left; width: 300px; height: 680px; margin: 0; border-style: solid; border-color: black;">
+            <div style="width: 280px; height: 73px; text-align: center; border-style: solid; border-color: black; margin: 6px;">
+              <a href="kineticEnergy.html"><h1 style="font-family: Arial, Helvetica, sans-serif;">Kinetic Energy</h1></a>
+            </div>
+            <div style="width: 280px; height: 73px; text-align: center; border-style: solid; border-color: black; margin: 6px;">
+              <a href=""><h1 style="font-family: Arial, Helvetica, sans-serif;">E</h1></a>
+            </div>
+            <div style="width: 280px; height: 73px; text-align: center; border-style: solid; border-color: black; margin: 6px;">
+              <h1 style="font-family: Arial, Helvetica, sans-serif;">Gravity Force</h1>
+            </div>
+            <div style="width: 280px; height: 73px; text-align: center; border-style: solid; border-color: black; margin: 6px;">
+              <a href=""><h1 style="font-family: Arial, Helvetica, sans-serif;">E</h1></a>
+            </div>
+            <div style="width: 280px; height: 73px; text-align: center; border-style: solid; border-color: black; margin: 6px;">
+              <a href=""><h1 style="font-family: Arial, Helvetica, sans-serif;">E</h1></a>
+            </div>
+            <div style="width: 280px; height: 73px; text-align: center; border-style: solid; border-color: black; margin: 6px;">
+              <a href=""><h1 style="font-family: Arial, Helvetica, sans-serif;">E</h1></a>
+            </div>
+            <div style="width: 280px; height: 73px; text-align: center; border-style: solid; border-color: black; margin: 6px;">
+              <a href=""><h1 style="font-family: Arial, Helvetica, sans-serif;">E</h1></a>
+            </div>
+            <div style="width: 280px; height: 73px; text-align: center; border-style: solid; border-color: black; margin: 6px;">
+              <a href=""><h1 style="font-family: Arial, Helvetica, sans-serif;">E</h1></a>
+            </div>       
+        </div>
+    
+        <div style="text-align: center; flex: 1;">
+            <input type="text" id="mass1" style="font-size: 75px; width: 800px; height: 100px;"> 
+            <select style="height: 50px; width: 100px; margin-top: 50px;" id="massopt1">
+              <option value="Mg">Mg</option>
+              <option value="Kg">Kg</option>
+              <option value="g">g</option>
+              <option value="mg">mg</option>
+              <option value="µg">µg</option>
+              <option value="lbs">lbs</option>
+            </select> <div>
+
+            <input type="text" id="mass2" style="font-size: 75px; width: 800px; height: 100px;"> 
+            <select style="height: 50px; width: 100px; margin-top: 50px;" id="massopt2">
+                <option value="Mg">Mg</option>
+                <option value="Kg">Kg</option>
+                <option value="g">g</option>
+                <option value="mg">mg</option>
+                <option value="µg">µg</option>
+                <option value="lbs">lbs</option>
+            </select> <div>
+
+            <input type="text" id="distance" style="font-size: 75px; width: 800px; height: 100px;">
+            <select style="height: 50px; width: 100px;" id="speedopt">
+              <option value="km">km</option>
+              <option value="m">m</option>
+              <option value="mm">mm</option>
+            </select> <div>
+
+            <button style="margin-top: 5px;" onclick="gravityForce()">Calculate</button><div>
+
+            <input style="margin-top: 5px; font-size: 75px; width: 800px; height: 100px;" type="text" id="ant">
+
+        </div>
+    </div>
+
+  <script src="calcs.js"></script>
+
+</body>
+</html>
